@@ -1,0 +1,28 @@
+button {
+  font-size: 3rem;  
+}
+button:hover {
+  cursor: pointer;
+}
+
+.red {
+  color: rgb(236, 124, 124);
+  background-color: rgb(101, 36, 36);
+}
+
+.blue {
+  color: rgb(82, 169, 239);
+  background-color: rgb(25, 64, 115);
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  button {
+    font-size: 2rem;
+  }
+}
